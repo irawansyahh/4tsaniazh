@@ -107,7 +107,7 @@ function drawText() {
   if (frameNumber < 250) {
     context.fillStyle = `rgba(45, 45, 255, ${opacity})`;
     context.fillText(
-      'everyday day i cannot believe how lucky i am know about you tsaniaaa',
+      'everyday, i cannot believe how lucky i am know about you tsaniaaa',
       canvas.width / 2,
       canvas.height / 2,
     );
@@ -117,7 +117,7 @@ function drawText() {
   if (frameNumber >= 250 && frameNumber < 500) {
     context.fillStyle = `rgba(45, 45, 255, ${opacity})`;
     context.fillText(
-      'everyday day i cannot believe how lucky i am know about you tsaniaaa',
+      'everyday,I cannot believe how lucky i am know about you tsaniaaa',
       canvas.width / 2,
       canvas.height / 2,
     );
