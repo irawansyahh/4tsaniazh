@@ -66,12 +66,12 @@ function updateStars() {
 const button = document.getElementById('valentinesButton');
 
 button.addEventListener('click', () => {
-  if (button.textContent === 'Click Me!!!!!') {
+  if (button.textContent === 'Click Me! ❤') {
     button.textContent = 'loading...';
     fetch('send_mail.php')
       .then((response) => {
         if (response.ok) {
-          button.textContent = 'I made this for you, im so shy 🙃';
+          button.textContent = 'Unblock my wa please 🙃';
         } else {
           console.error('Failed to send email');
           button.textContent = 'Error 😞';
@@ -107,8 +107,7 @@ function drawText() {
   if (frameNumber < 250) {
     context.fillStyle = `rgba(45, 45, 255, ${opacity})`;
     context.fillText(
-      'every day, I cannot believe how lucky'
-      'I know about you tsaniaaa',
+      'everyday, i cannot believe how lucky i am know about you tsaniaaa',
       canvas.width / 2,
       canvas.height / 2,
     );
@@ -118,8 +117,7 @@ function drawText() {
   if (frameNumber >= 250 && frameNumber < 500) {
     context.fillStyle = `rgba(45, 45, 255, ${opacity})`;
     context.fillText(
-      'every day, I cannot believe how lucky',
-      'i know about you tsaniaaa',
+      'everyday, i cannot believe how lucky i am know about you tsaniaaa',
       canvas.width / 2,
       canvas.height / 2,
     );
@@ -227,7 +225,7 @@ function drawText() {
     if (window.innerWidth < 600) {
       drawTextWithLineBreaks(
         [
-          'and yet here I am to get the impossible',
+          'and yet here i am to get the impossible',
           'chance to get to know you',
         ],
         canvas.width / 2,
@@ -237,7 +235,8 @@ function drawText() {
       );
     } else {
       context.fillText(
-        'and yet here I am to get the impossible chance to get to know you',
+        'and yet here i am to get the impossible',
+        'chance to get to know you',
         canvas.width / 2,
         canvas.height / 2,
       );
@@ -261,7 +260,8 @@ function drawText() {
       );
     } else {
       context.fillText(
-        'and yet here i am to get the impossible chance to get to know you',
+        'and yet here i am to get the impossible',
+        'chance to get to know you',
         canvas.width / 2,
         canvas.height / 2,
       );
@@ -279,14 +279,14 @@ function drawText() {
     if (window.innerWidth < 600) {
       drawTextWithLineBreaks(
         [
-          'If you open this page', 
+          'If you open this page',
           'i want to say sorry for the mistake i made,',
-          'even though I know its very difficult to forgive this', 
-          'I hope youre always happy,',
-          'im here to always support you', 
-          'i want to explain it via whatsApp but its been blocked,',
-          'so I Make the website so it can be read',
-          ,'over and over again, so please forgive me okay?',
+          'even though I know its very difficult to forgive this',
+          'I hope youre always happy',
+          'im here to always support you,',
+          'i want to explain it via whatsApp but its been blocked, ',
+          'so I Make the website so it can be read over and over again,',
+          'so please forgive me okay ? ',
           'but to hard about forgive my mistake',
         ],
         canvas.width / 2,
@@ -294,6 +294,21 @@ function drawText() {
         fontSize,
         lineHeight,
       );
+    } else {
+      context.fillText(
+        'If you open this page',
+        'i want to say sorry for the mistake i made,',
+        'even though I know its very difficult to forgive this',
+        'I hope youre always happy',
+        'im here to always support you,',
+        'i want to explain it via whatsApp but its been blocked, ',
+        'so I Make the website so it can be read over and over again,',
+        'so please forgive me okay ? ',
+        'but to hard about forgive my mistake',
+        canvas.width / 2,
+        canvas.height / 2,
+      );
+    }
 
     opacity = opacity + 0.01;
   }
@@ -304,7 +319,7 @@ function drawText() {
     if (window.innerWidth < 600) {
       drawTextWithLineBreaks(
         [
-          "and I can't wait to spend all the time in",
+          "and i can't wait to spend all the time in",
           'the world to share that love with you!',
         ],
         canvas.width / 2,
@@ -314,7 +329,8 @@ function drawText() {
       );
     } else {
       context.fillText(
-        "and i can't wait to spend all the time in the world to share that love with you!",
+        "and i can't wait to spend all the time in",
+        'the world to share that love with you!',
         canvas.width / 2,
         canvas.height / 2 + 50,
       );
@@ -326,7 +342,7 @@ function drawText() {
   if (frameNumber >= 3000 && frameNumber < 99999) {
     context.fillStyle = `rgba(45, 45, 255, ${thirdOpacity})`;
     context.fillText(
-      "Happy Valentine's Day <3 Mantankuu",
+      "Happy Valentine's Day <3",
       canvas.width / 2,
       canvas.height / 2 + 120,
     );
