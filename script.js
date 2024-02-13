@@ -292,15 +292,16 @@ function drawText() {
       );
     } else {
       context.fillText(
-        'If you open this page',
-        'i want to say sorry for the mistake i made,',
-        'even though I know its very difficult to forgive this',
-        'I hope youre always happy',
-        'im here to always support you,',
-        'i want to explain it via whatsApp but its been blocked, ',
-        'so I Make the website so it can be read over and over again,',
-        'so please forgive me okay ? ',
-        'but to hard about forgive my mistake',
+        [
+          'If you open this page i want to say sorry for the mistake i made,',
+          'even though I know its very difficult to forgive this',
+          'I hope youre always happy',
+          'im here to always support you,',
+          'i want to explain it via whatsApp but its been blocked,',
+          'so I Make the website so it can be read over and over again,',
+          'so please forgive me okay? ',
+          'but to hard about forgive my mistake',
+        ],
         canvas.width / 2,
         canvas.height / 2,
       );
