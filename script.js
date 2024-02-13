@@ -225,8 +225,7 @@ function drawText() {
     if (window.innerWidth < 600) {
       drawTextWithLineBreaks(
         [
-          'and yet here i am to get the impossible',
-          'chance to get to know you',
+          'and yet here I am to get the impossible chance to get to know you',
         ],
         canvas.width / 2,
         canvas.height / 2,
@@ -235,8 +234,7 @@ function drawText() {
       );
     } else {
       context.fillText(
-        'and yet here i am to get the impossible',
-        'chance to get to know you',
+        'and yet here I am to get the impossible chance to get to know you',
         canvas.width / 2,
         canvas.height / 2,
       );
@@ -250,8 +248,7 @@ function drawText() {
     if (window.innerWidth < 600) {
       drawTextWithLineBreaks(
         [
-          'and yet here i am to get the impossible',
-          'chance to get to know you',
+          'and yet here I am to get the impossible chance to get to know you',
         ],
         canvas.width / 2,
         canvas.height / 2,
@@ -260,7 +257,7 @@ function drawText() {
       );
     } else {
       context.fillText(
-        'and yet here i am to get the impossible',
+        'and yet here I am to get the impossible',
         'chance to get to know you',
         canvas.width / 2,
         canvas.height / 2,
@@ -279,14 +276,13 @@ function drawText() {
     if (window.innerWidth < 600) {
       drawTextWithLineBreaks(
         [
-          'If you open this page',
-          'i want to say sorry for the mistake i made,',
+          'If you open this page i want to say sorry for the mistake i made,',
           'even though I know its very difficult to forgive this',
           'I hope youre always happy',
           'im here to always support you,',
-          'i want to explain it via whatsApp but its been blocked, ',
+          'i want to explain it via whatsApp but its been blocked,',
           'so I Make the website so it can be read over and over again,',
-          'so please forgive me okay ? ',
+          'so please forgive me okay? ',
           'but to hard about forgive my mistake',
         ],
         canvas.width / 2,
